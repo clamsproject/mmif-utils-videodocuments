@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "setuptools-git-versioning<2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools-git-versioning]
+enabled = true
+
+[project]
+name = "mmif-utils-videodocuments"
+description = "a mmif-utils plugin that provides vairous helper methods for video document handling"
+dynamic = ["version", "license", "readme", "authors"]
